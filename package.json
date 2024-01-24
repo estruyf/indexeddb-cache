@@ -1,0 +1,27 @@
+{
+  "name": "@estruyf/icache",
+  "version": "1.0.0",
+  "description": "Cache implementation using IndexedDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValoIntranet/indexeddb-cache.git"
+  },
+  "keywords": [
+    "Caching"
+  ],
+  "author": "Elio Struyf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValoIntranet/indexeddb-cache/issues"
+  },
+  "homepage": "https://github.com/ValoIntranet/indexeddb-cache#readme",
+  "devDependencies": {
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  }
+}

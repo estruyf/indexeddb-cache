@@ -9,17 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ValoIntranet/indexeddb-cache.git"
+    "url": "git+https://github.com/estruyf/indexeddb-cache.git"
   },
   "keywords": [
-    "Caching"
+    "Caching",
+    "IndexedDB"
   ],
   "author": "Elio Struyf",
   "license": "MIT",
+  "funding": [{
+    "type": "github",
+    "url": "https://github.com/sponsors/estruyf"
+  }],
   "bugs": {
-    "url": "https://github.com/ValoIntranet/indexeddb-cache/issues"
+    "url": "https://github.com/estruyf/indexeddb-cache/issues"
   },
-  "homepage": "https://github.com/ValoIntranet/indexeddb-cache#readme",
+  "homepage": "https://github.com/estruyf/indexeddb-cache#readme",
   "devDependencies": {
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"

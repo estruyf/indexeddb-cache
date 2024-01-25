@@ -4,10 +4,10 @@ const cache = new CacheService(`EventCache`);
 await cache.init();
 
 const data = {
-    name: 'Alice',
-    age: 25,
-    hobbies: ['reading', 'coding', 'biking']
-  };
+  name: 'Alice',
+  age: 25,
+  hobbies: ['reading', 'coding', 'biking']
+};
 
 // Write data to the cache
 await cache.put(`People`, data, DateHelper.dateAdd(Date(), DateInterval.minute, 1));

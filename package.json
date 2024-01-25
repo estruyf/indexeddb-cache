@@ -1,6 +1,6 @@
 {
   "name": "@estruyf/icache",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Cache implementation using IndexedDB",
   "main": "dist/index.js",
   "scripts": {
@@ -17,10 +17,12 @@
   ],
   "author": "Elio Struyf",
   "license": "MIT",
-  "funding": [{
-    "type": "github",
-    "url": "https://github.com/sponsors/estruyf"
-  }],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/estruyf"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/estruyf/indexeddb-cache/issues"
   },
